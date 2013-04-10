@@ -1,4 +1,4 @@
-site
+Chatterbox
 ====
 
-The Chatterbox website (may become chatterbox.org or chatterbox.com)
+Chatterbox is a messaging app that is created using open web technology.  We welcome your contributions!

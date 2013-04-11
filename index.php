@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <html>
   <head>
-    <title>Messaging made Easy | Chatterbox</title>
+    <title>Chatterbox Messaging made Easy</title>
   </head>
   <body>
     <img src=https://secure.gravatar.com/avatar/e7e63543c9193db55fca9000dfa22400?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-org-420.png alt="logo" />

@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #222;
+}
+
+.siteHeader {
+  background: #5181a3;
+  color: white;
+}

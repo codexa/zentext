@@ -4,6 +4,7 @@
     
     <!-- Stylesheets -->    
     <link rel="stylesheet" type="text/css" href="/style/main.css" />
+    <link rel="stylesheet" type="text/css" href="/style/responsive.css" />
     
     <!-- Favicons -->    
     <link href="/style/assets/favicon.png" rel="icon" type="image/x-icon" />

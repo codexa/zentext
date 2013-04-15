@@ -27,14 +27,14 @@ header {
 
 header .logo img {
   height: 50px;
-  margin: 10px 10px 0px 10px;
+  margin: 8px 8px 0px 8px;
 }
 
 header .container {
 }
 
 .page {
-  padding: 2px 0px 6px 0px;
+  padding: 10px;
   margin: 0px;  
   display: block;
   min-height: 80%;
@@ -127,6 +127,8 @@ footer .container .column {
   margin: 0px 1px;
   display: inline-block;
   color: white;
+  opacity: .6;
+  text-decoration: none;
     
   transition: all .3s;
   -moz-transition: all .3s;
@@ -135,18 +137,7 @@ footer .container .column {
 }
 
 .top_menu .items li a:hover, .top_menu .items li a:focus {
-  background: #555;  
-  color: white;
-  text-decoration: none;
-  text-shadow: none;
-}
-
-.top_menu .items li a.current, .top_menu .items li a:active {
-  background: #555;  
-  color: white;
-  text-decoration: none;
-  text-shadow: none;
-  box-shadow: inset 0px 0px 5px #222;
+  opacity: 1;
 }
 
 .top_menu .mobile_button {
@@ -171,7 +162,8 @@ footer .container .column {
 }
 
 .top_menu .mobile_button:active, .top_menu.shown .mobile_button {
-  background: #111;
+  background: #5181a3;
+  box-shadow: inset 0px 0px 5px black;
 }
 
 @media (max-width: 766px) {
@@ -212,9 +204,13 @@ footer .container .column {
     color: white;
     text-shadow: none;
     font-size: 16px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+  .top_menu .items li a:hover {
+    background: #5181a3;  
   }
   .top_menu .items li a.current, .top_menu .items li a:active {
-    background: #111;  
     box-shadow: inset 0px 0px 5px black;
   }
 }

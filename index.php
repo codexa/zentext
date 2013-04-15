@@ -5,7 +5,7 @@
   <body>
     <?php include 'lib/header.php'; ?>  
     <main class="page" theme="white">
-      <img src="/style/assets/logo.png" alt="logo" height="200" width="200" />
+      <img src="/style/assets/logo_light.png" alt="logo" height="150" />
       <h1>Welcome to Zentext!</h1>
       <p>This is a web page for the Zentext app.</p>
       <p>Come here to use the app, and to read about the planed updates/bug fixes, and to see the latest version.</p>

@@ -1,6 +1,6 @@
 <header theme="blue">
   <div class="container">
-    <a href="/" class="logo"><img alt="Zentext" src="/style/assets/logo.png" /></a>
+    <a href="/" class="logo"><img alt="Zentext" src="/style/assets/logo_white_little.png" /></a>
     <nav class="top_menu" id="menu_1">
       <img class="mobile_button mobile-object" alt="Menu" src="/style/assets/menu.png" onClick="menuToggle('1')" />
       <ul class="items">

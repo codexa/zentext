@@ -4,7 +4,7 @@
   <title class="add">Messaging Made Easy</title>
   <body>
     <?php include 'lib/header.php'; ?>  
-    <main class="page" theme="white">
+    <main class="page theme-light">
       <img src="/style/assets/logo_light.png" alt="logo" height="150" />
       <h1>Welcome to Zentext!</h1>
       <p />This is a web page for the Zentext app.

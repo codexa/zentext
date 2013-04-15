@@ -1,4 +1,4 @@
-<header theme="blue">
+<header theme="dark">
   <div class="container">
     <a href="/" class="logo"><img alt="Zentext" src="/style/assets/logo_white_little.png" /></a>
     <nav class="top_menu" id="menu_1">

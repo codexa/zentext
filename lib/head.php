@@ -1,3 +1,4 @@
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="Zentext messaging app." />
     <meta name="keywords" content="Zentext, Messaging, Texting, Email, Communications" />
@@ -18,3 +19,5 @@
       } else {
       }
     </script>
+  </head>
+  

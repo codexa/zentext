@@ -11,8 +11,10 @@
 
     <script type="text/javascript">
       if (document.title == null | document.title == undefined | document.title == '') {
-        document.title = 'Micovision';
+        document.title = 'Chatterbox';
+      } else if (document.title.classList.includes('add')) {
+        document.title = (document.title + ' | Chatterbox');
       } else {
-        document.title = (document.title + ' | Micovision');
+        
       }
     </script>

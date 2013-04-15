@@ -1,9 +1,7 @@
 <DOCTYPE html>
 <html>
-  <head>
-    <?php include 'lib/head.php'; ?>    
-    <title class="add">Messaging Made Easy</title>
-  </head>
+  <?php include 'lib/head.php'; ?>    
+  <title class="add">Messaging Made Easy</title>
   <body>
     <?php include 'lib/header.php'; ?>  
     <main class="page" theme="white">

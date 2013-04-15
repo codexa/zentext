@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <?php include 'lib/head.php'; ?>    
   <title class="add">Messaging Made Easy</title>

@@ -1,6 +1,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Chatterbox messaging app." />
-    <meta name="keywords" content="Messaging, Texting, Email, Communications" />
+    <meta name="description" content="Zentext messaging app." />
+    <meta name="keywords" content="Zentext, Messaging, Texting, Email, Communications" />
     
     <!-- Stylesheets -->    
     <link rel="stylesheet" type="text/css" href="/style/main.css" />
@@ -12,10 +12,9 @@
 
     <script type="text/javascript">
       if (document.title == null | document.title == undefined | document.title == '') {
-        document.title = 'Chatterbox';
-      } else if (document.title.classList.includes('add')) {
-        document.title = (document.title + ' | Chatterbox');
+        document.title = 'Zentext';
+      } else if (document.title.classList.contains('add')) {
+        document.title = (document.title + ' | Zentext');
       } else {
-        
       }
     </script>

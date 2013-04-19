@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <?php include 'lib/head.php'; ?>    
-  <title class="add">Messaging Made Easy</title>
+  <title>Messaging Made Easy | {name}</title>
   <body>
     <?php include 'lib/header.php'; ?>  
     <main class="page theme-light">

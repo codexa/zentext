@@ -9,7 +9,7 @@
       <h1>Welcome to Zentext!</h1>
       <p />Welcome to the Zentext webpage!
       <p />Come here to use the app, and to read about the planed updates/bug fixes, and to see the latest version!
-      <p />Latest version <!-- Image with version number here? --> Last update <!-- Image with last update date and updater name-->
+      <p />Latest version <!-- Button image with current version number over it? --> Last update <!-- Image with last update date and time?-->
     </main>
   </body>
 </html>

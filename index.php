@@ -9,7 +9,10 @@
       <h1>Welcome to Zentext!</h1>
       <p />Welcome to the Zentext webpage!
       <p />Come here to use the app, and to read about the planed updates/bug fixes, and to see the latest version!
-      <p />Latest version <!-- Button image with current version number over it? --> Last update <!-- Image with last update date and time?-->
+      <div class="sidebar version-container">
+        Latest version: <span id="current-version-name" class="version-name"></span>
+        <br />Release date: <span id="current-version-date" class="version-date"></span>
+      </div>
     </main>
   </body>
 </html>

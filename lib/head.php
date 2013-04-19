@@ -11,7 +11,9 @@
     <!-- Favicons -->    
     <link href="/style/assets/favicon.png" rel="icon" type="image/x-icon" />
     <link href="/style/assets/favicon.png" rel="shortcut icon" type="image/x-icon" />
-
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="/scripts/site-min.js"></script>
     <script type="text/javascript">
       if (document.title == null | document.title == undefined | document.title == '') {
         document.title = 'Zentext';

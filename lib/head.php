@@ -17,9 +17,8 @@
     <script type="text/javascript">
       if (document.title == null | document.title == undefined | document.title == '') {
         document.title = 'Zentext';
-      } else if (document.title.classList.contains('add')) {
-        document.title = (document.title + ' | Zentext');
       } else {
+        document.title = document.title.replace(/{name}/g, 'Zentext');
       }
     </script>
   </head>

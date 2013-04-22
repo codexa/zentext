@@ -2,7 +2,7 @@
 <html>
   <?php include 'lib/head.php'; ?>    
   <title>Messaging Made Easy | {name}</title>
-  <body>
+  <body onLoad="init()">
     <?php include 'lib/header.php'; ?>  
     <main class="page theme-light">
       <img src="/style/assets/logo_light.png" alt="logo" height="150" />

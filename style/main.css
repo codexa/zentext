@@ -2,3 +2,15 @@ h1 {
   color: #5181a3;
   font-family: Impact, Georgia, Verdana, Serif, Sans-serif;
 }
+
+a {
+  color:#0020C7;
+}
+
+a:visited {
+  color:#5181a3;
+}
+
+a:hover {
+  color:#999999;
+}

@@ -7,9 +7,9 @@ function init() {
 
 function dispVersion() {
   if (document.getElementById('current-version-name')) {
-    document.getElementById('current-version-name').textContent = 'Development';
+    document.getElementById('current-version-name').textContent = 'Dev 0.0.1';
   }
   if (document.getElementById('current-version-date')) {
-    document.getElementById('current-version-date').textContent = 'Not Released Yet!';
+    document.getElementById('current-version-date').textContent = '4/23/13 7:30 AM';
   }
 }

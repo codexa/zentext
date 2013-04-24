@@ -12,4 +12,7 @@ function dispVersion() {
   if (document.getElementById('current-version-date')) {
     document.getElementById('current-version-date').textContent = '4/23/13 7:30 AM';
   }
+  if (document.getElementById('current-version-changes')) {
+    document.getElementById('current-version-changes').textContent = 'Multiple behind the scenes changes';
+  }
 }

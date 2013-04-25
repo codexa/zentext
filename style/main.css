@@ -3,6 +3,11 @@ h1 {
   font-family: Impact, Georgia, Verdana, Serif, Sans-serif;
 }
 
+body {
+  color: #5181a3;
+  font-family:Calibri;
+}
+
 a {
   color:#5181a3;
   text-decoration: none;

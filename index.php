@@ -12,7 +12,7 @@
       <div class="sidebar version-container">
         Latest version: <span id="current-version-name" class="version-name"></span>
         <br />Release date: <span id="current-version-date" class="version-date"></span>
-        <br />Changes: <a id="current-version-changes" class="version-changes" href="">See the Changelog.</a>
+        <br />Changes: <a id="current-version-changes" class="version-changes" href="changelog">See the Changelog.</a>
       </div>
     </main>
   </body>

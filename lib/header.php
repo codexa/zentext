@@ -6,7 +6,7 @@
       <ul class="items">
          <!--<li><a href="/app" type="button" id="nav_app">App</a></li>-->
         <li><a href="/about" type="button" id="nav_about">About</a></li>
-      <li><a href="/change log" type="button" id="nav_change log">Change Log<a/></li>
+      <li><a href="/Change%20Log" type="button" id="nav_change log">Change Log<a/></li>
       </ul>
     </nav>
   </div>    

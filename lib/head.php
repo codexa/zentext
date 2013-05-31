@@ -15,7 +15,7 @@
     <!-- Scripts -->
     <script type="text/javascript" src="/scripts/site-min.js"></script>
     <script type="text/javascript">
-      if (document.title == null | document.title == undefined | document.title == '') {
+      if (document.title == null || document.title == undefined || document.title == '') {
         document.title = 'Zentext';
       } else {
         document.title = document.title.replace(/{name}/g, 'Zentext');

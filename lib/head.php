@@ -3,6 +3,12 @@
     <meta name="description" content="Zentext messaging app." />
     <meta name="keywords" content="Zentext, Messaging, Texting, Email, Communications" />
     
+    <title><?php
+    if (isset($title)) {
+      print $title." | ";
+    }
+    ?>Zentext</title>
+    
     <!-- Stylesheets -->    
     <link rel="stylesheet" type="text/css" href="/style/main.css" />
     <link rel="stylesheet" type="text/css" href="/style/responsive.css" />
@@ -14,12 +20,5 @@
     
     <!-- Scripts -->
     <script type="text/javascript" src="/scripts/site-min.js"></script>
-    <script type="text/javascript">
-      if (document.title == null || document.title == undefined || document.title == '') {
-        document.title = 'Zentext';
-      } else {
-        document.title = document.title.replace(/{name}/g, 'Zentext');
-      }
-    </script>
   </head>
   

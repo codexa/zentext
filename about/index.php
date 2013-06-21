@@ -1,7 +1,9 @@
+<?php
+$title = "About Zentext";
+?>
 <!DOCTYPE html>
 <html>
-  <?php include '../lib/head.php'; ?>    
-  <title>About Zentext</title>
+  <?php include '../lib/head.php'; ?>
   <body>
     <?php include '../lib/header.php'; ?>  
     <main class="page theme-white">

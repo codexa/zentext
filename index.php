@@ -1,7 +1,9 @@
+<?php
+$title = "Messageing Made Easy";
+?>
 <!DOCTYPE html>
 <html>
-  <?php include 'lib/head.php'; ?>    
-  <title>Messaging Made Easy | {name}</title>
+  <?php include 'lib/head.php'; ?>
   <body onLoad="init()">
     <?php include 'lib/header.php'; ?>  
     <main class="page theme-light">

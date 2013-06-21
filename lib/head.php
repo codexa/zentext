@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/style/elements.css" />
     
     <!-- Favicons -->    
-    <link href="/style/assets/favicon.png" rel="icon" type="image/x-icon" />
-    <link href="/style/assets/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="/style/assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/style/assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     
     <!-- Scripts -->
     <script type="text/javascript" src="/scripts/site-min.js"></script>

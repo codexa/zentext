@@ -22,7 +22,11 @@ header {
   border-radius: 0px;
   background-color: #222;
   border-bottom: 1px solid #111;
-  color: white;
+  color: rgba(256,256,256,.8);
+}
+
+header .logo {
+  opacity: .8;
 }
 
 header .logo img {

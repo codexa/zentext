@@ -29,7 +29,11 @@
  
  
 /* Compose page */
-.compose-page input {
+.compose-page {
+  color: #222;
+}
+
+.compose-page input, .compose-page #message-content {
   border: 1px solid transparent;
   outline: none;
   transition: border .3s;
@@ -39,7 +43,10 @@
     -ms-transition: border .3s;
 }
 
-.compose-page input:hover, .compose-page input:focus {
+.compose-page input:hover,
+.compose-page input:focus,
+.compose-page #message-content:hover,
+.compose-page #message-content:focus {
   border-color: black;
 }
 
@@ -64,8 +71,21 @@
   outline: none;
   text-align: right;
   font-size: inherit;
+  margin: 3px 0;
 }
 
 .emails-list input {
   font-size: inherit;
+  margin: 2px 0;
+}
+
+#message-content {
+  display: block;
+  padding: 10px;
+  min-height: 200px;
+  text-align: left;
+  font-size: 20px;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }

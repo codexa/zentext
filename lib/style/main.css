@@ -1,6 +1,6 @@
 h1 {
   color: #5181a3;
-  font-family: Impact, Georgia, Verdana, Serif, Sans-serif;
+  font-family: Calibri, Sans-serif;
 }
 
 body {
@@ -25,4 +25,9 @@ a:hover {
 
 a:visited {
   text-decoration: underline;
+}
+
+#alpha {
+  position: absolute;
+  text-align: left;
 }

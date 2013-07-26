@@ -10,7 +10,7 @@ $title = "Messaging Made Easy";
       <img src="//cdn.codexa.org/zentext/assets/img/logo_light.png" alt="logo" height="150" />
       <h1>Zentext Alpha</h1>
       <p>Zentext is a Messaging App</p>
-      <p>Please note that this is an alpha release, rthis means that it is unstable. We do not advise you to use yet and therefore do not take any liability for any harm.</p>
+      <p>Please note that this is an alpha release, this means that it is unstable. We do not advise you to use yet and therefore do not take any liability for any harm.</p>
       <p><a href="//zentext.codexa.org/portal/index.php" type="button">Get Started</a></p>
       <div class="sidebar version-container">
         Latest version: <span id="current-version-name" class="version-name"></span>

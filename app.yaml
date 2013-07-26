@@ -1,0 +1,25 @@
+application: zentext-app
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+#indexes
+- url: (|/portal(?:|/compose)|/about)/?
+  script: \1/index.php
+#php pages
+- url: (|/portal(?:|/compose)|/about)(/[^/]*\.php)
+  script: \1\2
+#js
+- url: /((?:|portal/)lib/scripts)/([^/]*\.js)
+  static_files: \1/\2
+  upload: ((|portal/)lib/scripts)/[^/]*\.js
+#css
+- url: /(lib/style)/([^/]*.css)
+  static_files: \1/\2
+  upload: (lib/style)/[^/]*.css
+#images
+- url: /(cdn/assets/img|lib/img)/([^/]*\.(?:png|ico))
+  static_files: \1/\2
+  upload: (cdn/assets/img|lib/img)/([^/]*\.(png|ico))

@@ -23,3 +23,7 @@ handlers:
 - url: /(cdn/assets/img|lib/img)/([^/]*\.(?:png|ico))
   static_files: \1/\2
   upload: (cdn/assets/img|lib/img)/([^/]*\.(png|ico))
+#misc
+- url: /changelog
+  static_files: changelog
+  upload: changelog

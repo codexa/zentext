@@ -27,3 +27,4 @@ handlers:
 - url: /changelog
   static_files: changelog
   upload: changelog
+  mime_type: text/plain
